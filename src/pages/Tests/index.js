@@ -2,7 +2,8 @@ import React from 'react';
 import BaseContainer from '../../components/Layout/BaseContainer';
 
 // import CardOne from '../../components/Cards/CardOne';
-import SpinnerOne from '../../components/Spinners/SpinnerOne';
+// import SpinnerOne from '../../components/Spinners/SpinnerOne';
+import ButtonOne from '../../components/Buttons/ButtonOne';
 
 import * as S from './styles';
 
@@ -11,7 +12,8 @@ function Tests() {
     <BaseContainer>
       <S.Container>
         {/* <CardOne /> */}
-        <SpinnerOne />
+        {/* <SpinnerOne /> */}
+        <ButtonOne>Clique aqui</ButtonOne>
       </S.Container>
     </BaseContainer>
   );
