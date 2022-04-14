@@ -1,17 +1,17 @@
 import React from 'react';
+import CardOne from '../../components/Cards/CardOne';
 import BaseContainer from '../../components/Layout/BaseContainer';
 
 import * as S from './styles';
 
-function Home() {
+function Tests() {
   return (
     <BaseContainer>
-      <S.Banner src="https://source.unsplash.com/random" alt="ninja" />
-      <S.Section>
-        <h1>Title</h1>
-      </S.Section>
+      <S.Container>
+        <CardOne />
+      </S.Container>
     </BaseContainer>
   );
 }
 
-export default Home;
+export default Tests;
