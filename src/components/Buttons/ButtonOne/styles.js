@@ -9,7 +9,8 @@ export const Container = styled.button`
     letter-spacing: 2px;
     font-size: 1rem;
     outline: 2px solid ${theme.colors.font};
-    padding: 24px 64px;
+    width: 100%;
+    padding: 32px 96px;
     position: relative;
     overflow: hidden;
     transition: color 1s;
