@@ -18,6 +18,7 @@ import {
   CameraIcon,
   BackIcon,
   MenuIcon,
+  CloseIcon,
 } from '../assets/Icons';
 
 export function getIcon({ icon }) {
@@ -52,6 +53,8 @@ export function getIcon({ icon }) {
       return <ALertCircleIcon />;
     case 'camera':
       return <CameraIcon />;
+    case 'close':
+      return <CloseIcon />;
     case 'menu':
       return <MenuIcon />;
     case 'back':
