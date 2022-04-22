@@ -25,3 +25,4 @@ export * from './UsersIcon';
 export * from './AddFileIcon';
 export * from './ListIcon';
 export * from './UploadIcon';
+export * from './FileIcon';

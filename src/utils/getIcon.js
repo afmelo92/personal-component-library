@@ -19,9 +19,10 @@ import {
   BackIcon,
   MenuIcon,
   CloseIcon,
+  FileIcon,
 } from '../assets/Icons';
 
-export function getIcon({ icon }) {
+export function getIcon({ icon, strokeWidth = 5 }) {
   switch (icon) {
     case 'admin':
       return <AdminIcon />;
@@ -43,6 +44,8 @@ export function getIcon({ icon }) {
       return <CommandIcon />;
     case 'users':
       return <UsersIcon />;
+    case 'file':
+      return <FileIcon />;
     case 'add-file':
       return <AddFileIcon />;
     case 'list':
@@ -54,7 +57,7 @@ export function getIcon({ icon }) {
     case 'camera':
       return <CameraIcon />;
     case 'close':
-      return <CloseIcon />;
+      return <CloseIcon strokeWidth={strokeWidth} />;
     case 'menu':
       return <MenuIcon />;
     case 'back':
@@ -63,7 +66,6 @@ export function getIcon({ icon }) {
       return <ArrowLeftIcon />;
     case 'arrow-right':
       return <ArrowRightIcon />;
-    case 'spinner':
     default:
       return null;
   }
